@@ -19,9 +19,4 @@ git clone https://github.com/w9624/go-githubhost
 make run
 ```
 
-## 项目源文件编译后运行
-```shell
-make run
-```
-
 # 如果有用，亲，记得给个star🌟哈～
