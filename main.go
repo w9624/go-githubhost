@@ -139,7 +139,6 @@ func flushDNS(addrMap map[string]string) error {
 	bufSrc := bytes.NewBuffer(byteArr)
 	bufDst := &bytes.Buffer{}
 
-	log.Println(bufSrc.String())
 	for {
 		line, c := bufSrc.ReadString('\n')
 		if c == io.EOF {
